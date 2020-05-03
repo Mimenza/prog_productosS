@@ -5,6 +5,13 @@ public class Talla {
 	private int id;
 	private String nombre;
 	
+	/**
+	 * Constructor.
+	 * 
+	 * @param id: id de la talla
+	 * @param nombre: nombre de la talla	
+	 */
+	
 	public int getId() {
 		return id;
 	}

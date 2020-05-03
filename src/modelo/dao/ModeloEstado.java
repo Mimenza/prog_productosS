@@ -10,7 +10,11 @@ import modelo.bean.Estado;
 
 public class ModeloEstado extends Conector{
 	
-
+	/**
+	 * descripcion:Crea una conexion y selecciona todo de estados, guarda los datos en rs y luego guarda esos datos en descuento con set
+	 * por ultimo añade estado a estados
+	 * @return los estados
+	 */
 	public ArrayList<Estado> getAll(){
 
 		ArrayList<Estado> estados = new ArrayList<Estado>();

@@ -12,6 +12,11 @@ public class ModeloTalla extends Conector{
 	
 
 
+	/**
+	 * Crea un arraylist de tallas y selecciona todo de tallas para luego guardarlo en rs y mediante un set en talla
+	 * despues añade talla a tallas
+	 * @return las tallas 
+	 */
 	public ArrayList<Talla> getAll(){
 
 		ArrayList<Talla> tallas = new ArrayList<Talla>();

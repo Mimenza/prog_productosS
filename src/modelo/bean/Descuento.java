@@ -4,6 +4,14 @@ public class Descuento {
 	private int id;
 	private int valor;
 	private String descripcion;
+	
+	/**
+	 * Constructor.
+	 * 
+	 * @param id: id del descuento
+	 * @param valor: el valor del descuento 
+	 * @param descripcion: descripcion del descuento
+	 */
 
 	public int getId() {
 		return id;

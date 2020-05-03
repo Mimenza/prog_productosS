@@ -6,6 +6,14 @@ public class Estado {
 	private String name;
 	private String continent;
 	
+	/**
+	 * Constructor.
+	 * 
+	 * @param id: id del estado
+	 * @param name: nomnbre del estado 
+	 * @param continent: ?
+	 */
+	
 	public int getId() {
 		return id;
 	}

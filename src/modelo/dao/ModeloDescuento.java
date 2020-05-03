@@ -10,6 +10,11 @@ import modelo.bean.Descuento;
 
 public class ModeloDescuento extends Conector{
 	
+	/**
+	 * descripcion:Crea una conexion y selecciona todo de descuentos, guarda los datos en rs y luego guarda esos datos en descuento con set
+	 * por ultimo añade descuento a descuentos
+	 * @return los descuentos
+	 */
 	public ArrayList<Descuento> getAll(){
 
 		ArrayList<Descuento> descuentos = new ArrayList<Descuento>();

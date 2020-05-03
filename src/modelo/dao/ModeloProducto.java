@@ -12,8 +12,13 @@ import modelo.bean.Talla;
 
 public class ModeloProducto extends Conector{
 
+	/**
+	 * descripcion: crea un arraylist de productos y seleciona todo de productos y los guarda en rs para luego guardarlos en producto
+	 * por ultimo añade producto a productos
+	 * @return los prodcutos
+	 */
 	public ArrayList<Producto> getAll(){
-		//TODO implementar
+		
 		
 		ArrayList<Producto> productos =new ArrayList<Producto>();
 		
@@ -49,6 +54,11 @@ public class ModeloProducto extends Conector{
 		return productos;
 	}
 	
+	/**
+	 * Descripcion: selecciona los productos dependiendo de id que tenga , guarda los datos en rs y luego en productos mediante set 
+	 * @param id
+	 * @return el producto
+	 */
 	public Producto get(int id) {
 		
 		//TODO implementar
@@ -84,6 +94,10 @@ public class ModeloProducto extends Conector{
 		return null;
 	}
 	
+	/**
+	 * Descripcion: inserta en los productos los valores que se le pasa 
+	 * @param producto
+	 */
 	public void insert(Producto producto) {
 		//TODO implementar
 		
@@ -110,6 +124,10 @@ public class ModeloProducto extends Conector{
 		
 	}
 	
+	/**
+	 * Descripcion: actualiza los productos con los datos del producto que le llegan.
+	 * @param producto
+	 */
 	public void update(Producto producto) {
 		//TODO implementar
 		
@@ -133,6 +151,10 @@ public class ModeloProducto extends Conector{
 		
 	}
 	
+	/**
+	 * Descripcion: Elimina un producto segun el id que le den 
+	 * @param id
+	 */
 	public void delete(int id) {
 		//TODO implementar
 		
